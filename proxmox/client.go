@@ -274,6 +274,7 @@ func (c *Client) GetStorageStatus(vmr *VmRef, storageName string) (storageStatus
 	return
 }
 
+// test
 func (c *Client) GetStorageContent(vmr *VmRef, storageName string) (data map[string]interface{}, err error) {
 	err = c.CheckVmRef(vmr)
 	if err != nil {
